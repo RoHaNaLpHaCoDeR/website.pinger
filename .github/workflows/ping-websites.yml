@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Ping websites every 2-3 minutes'
-        uses: 'tj-actions/http-ping@v2.0.4'
+        uses: 'tj-actions/http-ping@v2'
         with:
           urls: |
             https://wtf-thats-interesting-flask-app.onrender.com/
