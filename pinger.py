@@ -3,7 +3,8 @@ import requests
 
 websites = [
     "https://wtf-thats-interesting-flask-app.onrender.com/",
-    "https://laughter-ka-doze-flask-app.onrender.com/"
+    "https://laughter-ka-doze-flask-app.onrender.com/",
+    "https://nairaaa-official-flask-app.onrender.com/"
 ]
 
 interval = 600  # 10 minutes
