@@ -3,8 +3,8 @@ name: Ping Websites Every 10 Minutes for 6 Hours
 on:
   workflow_dispatch:  # manual trigger
   # Optional: trigger once a day to kickstart it
-  schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours
+#  schedule:
+  #  - cron: '0 */6 * * *'  # Runs every 6 hours
 
 jobs:
   ping:
